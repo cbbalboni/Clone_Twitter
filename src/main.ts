@@ -8,10 +8,14 @@ import { bootstrapApplication } from '@angular/platform-browser';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <h1>Hello from {{name}}!</h1>
-    <a target="_blank" href="https://angular.io/start">
-      Learn more about Angular 
-    </a>
+    <body>
+
+      <section id=tweets><div class=content><p>tweets</p></div></section>
+      <section id=favorites><div class=content><p>favorites</p></div></section>
+      <section id=conversations><div class=content><p>conversations</p></div></section>
+      <section id=retweets><div class=content><p>retweets</p></div></section>
+
+    </body>
   `,
 })
 export class App {

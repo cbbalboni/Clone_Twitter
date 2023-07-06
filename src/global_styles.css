@@ -1,1 +1,24 @@
-/* Add application styles & imports to this file! */
+body { font-family: Helvetica; }
+	section { display: block; width: 24.5%; float: left; border-left: 1px dotted #dcdcdc; }
+	a { text-decoration: none; }
+	img { border: 0; }
+
+	#tweets, #retweets, #favorites, #conversations { font-size: 14px; padding: 0; margin: 0; }
+	#tweets a, #retweets a, #favorites a, #conversations a { color: #2277bb; }
+	#tweets .meta a, #retweets .meta a, #favorites .meta a, #conversations .meta a { color: #999; background: #f7f7f7; }
+
+	.hentry { margin-left: 58px; margin-right: 29px; }
+	.hentry .meta { color: #dcdcdc; font-size: 11px; margin: 3px 0 0; display: block; }
+
+	.content { clear: left; min-height: 48px; padding: 9px; line-height: 1.1; position: relative; }
+	.content:hover { background-color: #F7F7F7; }
+	.vcard { float: left; }
+
+	a.at { background: #fcfebf; }
+	a.li { background: #ffe6ff; }
+	a.ha { background: #e6ffff; }
+
+	.conv { background-image: url(conversation.png); background-repeat: no-repeat; background-position: left center; padding-left: 20px; margin: auto 3px auto 5px; }
+	.retw { background-image: url(retweet.png); background-repeat: no-repeat; background-position: left center; padding-left: 20px; margin: auto 3px auto 5px; }
+	.veri { background-image: url(verified.png); background-repeat: no-repeat; background-position: left center; padding-left: 15px; margin: auto 3px auto 5px; }
+	.fvrt { background-image: url(star14.png); background-repeat: no-repeat; background-position: left center; padding-left: 20px; margin: auto 3px auto 5px; }
